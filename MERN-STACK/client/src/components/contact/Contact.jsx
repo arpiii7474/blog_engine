@@ -1,6 +1,6 @@
 import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Banner = styled(Box)`
     background-image: url(http://mrtaba.ir/image/bg2.jpg);
     width: 100%;
@@ -28,14 +28,11 @@ const Contact = () => {
             <Wrapper>
                 <Typography variant="h3">Getting in touch is easy!</Typography>    
                 <Text variant="h5">
-                    Reach out to me on
-                    <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                        <Instagram/>
+                    Reach out to me on 
+                    <Link href="https://www.linkedin.com/in/arpita-agarwal-9470a5203/" color="inherit" target="_blank">
+                        <LinkedInIcon/>
                     </Link>
-                    or send me an Email 
-                    <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
-                        <Email />
-                    </Link>.
+                    or send me an Email on arpitaagarwal240@gmail.com
                 </Text>
             </Wrapper>
         </Box>
